@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="flower_icon.png" type="image/png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="main.css">
+        <title>Sandbox</title>
+    </head>
+    <body>
+        <div class="header">
+            <img src="images/logo 4.png" class="logo_image">
+            <div class="line"></div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Главная</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">О нас</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Формочки</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Лопатки</a>
+                      </li> 
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Ведерки</a>
+                      </li>
+                      </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+
+       
+        
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/top1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block textname1">
+                  <h5>Добро пожаловать <br>в Песочницу</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/top2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block textname2">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/top3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block textname3">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Предыдущий</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Следующий</span>
+            </button>
+        </div>
+
+        <div class="border">
+          <div class="services">
+            <div class="servicesname"> 
+              <h2>О песочнице и ее окрестностях</h2>
+            </div>
+            <div class="services1">
+              <img src="images/services/apparat.jpg" class="image">
+            </div>
+            <div class="services2">
+              <img src="images/services/ter.jpg" class="image">
+            </div>
+            <div class="line2"></div>
+            <div class="services1text">
+              <h5>Это Серега</h5>
+              <p>У него больше всего формочек, ведерок и лопаток! </p>
+            </div>
+            <div class="services2text">
+              <h5>Это я</h5>
+              <p>Серега дал попользоваться своими лопатками</p>
+            </div>
+        </div>
+
+         
+
+          <div class="contacts">
+            <div class="map"> 
+              <h2>Найти нас</h2>
+            </div>
+            <div class="writeus"> 
+              <h2>Напиcать нам</h2>
+            </div>
+            <div class="container">
+              <div class="row">
+              <div class="col-md-10"> </div>
+              <div class="col-md-10">
+                 <form action="./mail.php" method="post">
+              <div class="form-group">
+                 <label for="name">Ваше имя:</label>
+                 <input type="name" name="name" class="form-control" id="name" placeholder="Name">
+              </div>
+              <div class="form-group">
+                 <label for="email1">E-mail:</label>
+                 <input type="email" name="email" class="form-control" id="email1" placeholder="Email">
+              </div>
+              <div class="form-group">
+                 <label for="phone">Номер телефона:</label>
+                 <input type="phone" name="phone" class="form-control" id="phone" placeholder="Phone">
+              </div>
+              <div class="form-group">
+                 <label for="message">Сообщение:</label>
+                 <textarea class="form-control" name="message" rows="3"></textarea>
+              </div>
+                 <button type="submit" class="btn btn-info">Отправить сообщение</button>
+              </form>
+              </div>
+              <div class="col-md-7"> </div> </div>
+              </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1648.20389098048!2d30.920907805385617!3d52.40467352931171!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d4420ee52c299d%3A0xac82f082a203ca76!2z0KDQtdGH0LjRhtC60LjQuSDQv9GA0L7RgdC_LiA4MCwg0JPQvtC80LXQu9GM!5e0!3m2!1sru!2sby!4v1660556757846!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+    
+      <footer>
+        <a href="" target="_blank">
+          <img src="images/logo 4.png" title="на главную" alt="logo" class="logo_image">
+        </a>
+        <div class="footcopy">
+          <a href="https://www.instagram.com" target="_blank">
+            <img src="insta_icon.svg" title="instagram" alt="значок инстаграмм">
+          </a>
+          <a href="https://www.facebook.com" target="_blank">
+            <img src="fb_icon.svg" title="fb" alt="значок fb">
+          </a>
+          <a href="https://www.whatsapp.com" target="_blank">
+            <img src="whatsapp_icon.svg" title="whatsapp" alt="значок whatsapp">
+          </a>
+          <p>sandbox.com&copy;2022</p>
+        </div>
+        <div class="footcont">
+            <h4>КОНТАКТЫ</h4>
+            <p>Адрес: г. Гомель, Проспект Речицкий, 80</p>
+            <p>Телефоны: +7 495 220-01-21, +7 985 220-01-21</p>
+            <p>Email: sandbox@gmail.com</p>
+            <p>Часы работы: будни с 9:00 до 21:00,</p>
+            <p>суббота с 10:00 до 21:00, воскресенье с 10:00 до 20:00</p>
+        </div>
+      </footer>    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>     
+    </body>
+</html> 
+
+
+
